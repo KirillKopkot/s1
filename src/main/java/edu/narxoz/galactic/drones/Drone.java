@@ -1,7 +1,9 @@
+package edu.narxoz.galactic.drones;
+
 public abstract class Drone {
-    String id;
-    DroneStatus status;
-    double maxPayloadKg;
+    private String id;
+    private DroneStatus status;
+    private double maxPayloadKg;
 
     protected  Drone(String id, double maxPayloadKg) {
         this.id = id;

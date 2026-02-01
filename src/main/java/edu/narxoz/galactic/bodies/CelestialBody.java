@@ -1,3 +1,5 @@
+package edu.narxoz.galactic.bodies;
+
 public abstract  class CelestialBody {
     private String name;
     private double x;

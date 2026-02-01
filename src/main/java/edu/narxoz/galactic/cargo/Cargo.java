@@ -1,3 +1,5 @@
+package edu.narxoz.galactic.cargo;
+
 public abstract  class Cargo {
     private double weightKg;
     private String description;
